@@ -11,7 +11,8 @@ type Number struct {
 	values    []int64
 }
 
-func createNumber(dimensions int, rational bool) { //actual size is 2^dimensions, if dim=0 then scalar, if dim=1 then number is complex, or fraction
+//createNumber creates number. number has n dimensions and can be either rational or irrational
+func createNumber(n int, rational bool) { //actual size is 2^dimensions, if dim=0 then scalar, if dim=1 then number is complex, or fraction
 	fmt.Println("creating number")
 }
 
