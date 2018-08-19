@@ -1,0 +1,32 @@
+Birational geometry
+
+
+Grothendieck
+
+Topological tensor products and nuclear spaces.
+"Continuous" and "discrete" duality (derived categories, "six operations").
+Yoga of the Grothendieck–Riemann–Roch theorem (K-theory, relation with intersection theory).
+Schemes.
+Topoi.
+Étale cohomology and l-adic cohomology.
+Motives and the motivic Galois group (Grothendieck ⊗-categories).
+Crystals and crystalline cohomology, yoga of "de Rham coefficients", "Hodge coefficients", ...
+"Topological algebra": ∞-stacks, derivators; cohomological formalism of topoi as inspiration for a new homotopical algebra.
+Tame topology.
+Yoga of anabelian algebraic geometry, Galois–Teichmüller theory.
+"Schematic" or "arithmetic" point of view for regular polyhedra and regular configurations of all kinds.
+
+
+
+
+The simplest nontrivial example of a vector bundle is the Möbius band (pictured on the right): a strip of paper with a twist in it,
+ which represents a rank 1 vector bundle over a circle (the circle in question being the centerline of the Möbius band). K-theory is a tool
+  for working with higher-dimensional analogues of this example, or in other words for describing higher-dimensional twistings:
+   elements of the K-group of a space are represented by vector bundles over it, so the Möbius band represents an element
+    of the K-group of a circle
+
+Topological K-theory was discovered by Atiyah and Friedrich Hirzebruch[39] who were inspired by Grothendieck's proof of 
+the Grothendieck–Riemann–Roch theorem and Bott's work on the periodicity theorem. This paper only discussed the zeroth K-group;
+ they shortly after extended it to K-groups of all degrees,[40] giving the first (nontrivial) example of a generalized cohomology theory.
+
+
