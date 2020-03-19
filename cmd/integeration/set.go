@@ -1,11 +1,15 @@
 package integeration
 
-// //A set is a well-defined collection of distinct objects.
-// //One of Cantor’s basic concepts is the notion of the size or cardinality of a
-// //set M, denoted by |M|.
-
+// Set is a well-defined collection of distinct objects.
+// In mathematics, a set is a well-defined collection of distinct objects,
+// considered as an object in its own right.
+// For example, the numbers 2, 4, and 6 are distinct objects when considered separately,
+// but when they are considered collectively they form a single set of size three, written {2, 4, 6}.
+// One of Cantor’s basic concepts is the notion of the size or cardinality of a
+// set M, denoted by |M|.
 type Set struct {
-	rational bool
+	rational    bool
+	cardinality uint64
 }
 
 // //The set Q of rational numbers is countable.
