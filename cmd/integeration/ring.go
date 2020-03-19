@@ -6,7 +6,7 @@
 
 //Every finite division ring is a field TODO: check
 
-package main
+package integeration
 
 import (
 	"fmt"

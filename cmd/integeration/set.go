@@ -1,11 +1,15 @@
+package integeration
+
 // //A set is a well-defined collection of distinct objects.
 // //One of Cantor’s basic concepts is the notion of the size or cardinality of a
 // //set M, denoted by |M|.
 
+type Set struct {
+	rational bool
+}
+
 // //The set Q of rational numbers is countable.
 // //The set R of real numbers is not countable
-
-package main
 
 // // Add inserts an element into the set.
 // func Add(e int) {
