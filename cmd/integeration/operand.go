@@ -4,12 +4,18 @@ import "fmt"
 
 //Operand is the object of a mathematical operation, i.e., it is the object or quantity that is operated on.
 type Operand struct {
+	name      string
 	dimension int8 //rank
+	value     interface{}
 }
 
 //CreateOperand creates operand
-func CreateOperand(dimension int, value interface{}) interface{} {
-	var result interface{}
+func CreateOperand(name string, dimension int8, value interface{}) Operand {
+	var result Operand
+	result.dimension = dimension
+	result.value = value
+	result.name = name
+
 	switch dimension {
 	case 0:
 		fmt.Println("creating Scalar")
@@ -22,7 +28,6 @@ func CreateOperand(dimension int, value interface{}) interface{} {
 	default:
 		fmt.Println("High dimensional Operands are NOT SUPPORTED")
 	}
-	result = value
 
 	return result
 }

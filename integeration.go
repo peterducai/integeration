@@ -9,13 +9,13 @@ import (
 func main() {
 	fmt.Println("integeration")
 
-	scalar := integeration.CreateOperand(0, 5)
-	fmt.Println(scalar)
+	s1 := integeration.CreateOperand("s1", 0, 5)
+	fmt.Println(s1)
 
 	//COMPLEX NUMBER
 	complexnum := [...]int{10, 20}
-	vector := integeration.CreateOperand(1, complexnum)
-	fmt.Println(vector)
+	v1 := integeration.CreateOperand("v1", 1, complexnum)
+	fmt.Println(v1)
 	// matrix := integeration.CreateOperand(2, 4)
 	// tensor := integeration.CreateOperand(0, 5)
 }
