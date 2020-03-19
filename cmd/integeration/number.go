@@ -6,10 +6,7 @@ import (
 	"fmt"
 )
 
-type isRational struct {
-}
-
-//Number
+//Number is number
 //constructed from ratios (or fractions) of integers.
 //the irrational numbers are all the real numbers which are not rational numbers
 //
