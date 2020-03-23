@@ -34,6 +34,21 @@ type Set struct {
 // //The set Q of rational numbers is countable.
 // //The set R of real numbers is not countable
 
+//GetPowerSet -
+// If S is the set {x, y, z}, then the subsets of S are
+// {} (also denoted {\displaystyle \varnothing }\varnothing  or {\displaystyle \emptyset }\empty, the empty set or the null set)
+// {x}
+// {y}
+// {z}
+// {x, y}
+// {x, z}
+// {y, z}
+// {x, y, z}
+// and hence the power set of S is {{}, {x}, {y}, {z}, {x, y}, {x, z}, {y, z}, {x, y, z}}
+func GetPowerSet() {
+
+}
+
 // Union - Two sets can be "added" together. The union of A and B,
 // denoted by A ∪ B, is the set of all things that are members of either A or B.
 func Union() {
