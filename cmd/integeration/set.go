@@ -5,15 +5,51 @@ package integeration
 // considered as an object in its own right.
 // For example, the numbers 2, 4, and 6 are distinct objects when considered separately,
 // but when they are considered collectively they form a single set of size three, written {2, 4, 6}.
+//
+// Sets are conventionally denoted with capital letters.
+// Sets A and B are equal if and only if they have precisely the same elements
+//
+// If B is a set and x is one of the objects of B, this is denoted as x ∈ B, and is read as "x is an element of B",
+// as "x belongs to B", or "x is in B"
+//
 // One of Cantor’s basic concepts is the notion of the size or cardinality of a
 // set M, denoted by |M|.
 type Set struct {
 	rational    bool
-	cardinality uint64
+	cardinality uint32
 }
+
+// Special sets of numbers include
+
+// the empty set, denoted { } or ∅
+// A set with exactly one element, x, is a unit set, or singleton, {x}
+// P or ℙ, denoting the set of all primes: P = {2, 3, 5, 7, 11, 13, 17, ...}.[49]
+// N or {\displaystyle \mathbb {N} }\mathbb {N} , denoting the set of all natural numbers: N = {0, 1, 2, 3, ...} (sometimes defined excluding 0).[48]
+// Z or {\displaystyle \mathbb {Z} }\mathbb {Z} , denoting the set of all integers (whether positive, negative or zero): Z = {..., −2, −1, 0, 1, 2, ...}.[48]
+// Q or ℚ, denoting the set of all rational numbers (that is, the set of all proper and improper fractions): Q = {a/b | a, b ∈ Z, b ≠ 0}. For example, 1/4 ∈ Q and 11/6 ∈ Q. All integers are in this set since every integer a can be expressed as the fraction a/1 (Z ⊊ Q).[48]
+// R or {\displaystyle \mathbb {R} }\mathbb {R} , denoting the set of all real numbers. This set includes all rational numbers, together with all irrational numbers (that is, algebraic numbers that cannot be rewritten as fractions such as √2, as well as transcendental numbers such as π, e).[48]
+// C or ℂ, denoting the set of all complex numbers: C = {a + bi | a, b ∈ R}. For example, 1 + 2i ∈ C.[48]
+// H or ℍ, denoting the set of all quaternions: H = {a + bi + cj + dk | a, b, c, d ∈ R}. For example, 1 + i + 2j − k ∈ H.[50]
 
 // //The set Q of rational numbers is countable.
 // //The set R of real numbers is not countable
+
+// Union - Two sets can be "added" together. The union of A and B,
+// denoted by A ∪ B, is the set of all things that are members of either A or B.
+func Union() {
+
+}
+
+//Intersection - A new set can also be constructed by determining which members two sets have "in common".
+// The intersection of A and B, denoted by A ∩ B, is the set of all things that are members of both A and B.
+func Intersection() {
+
+}
+
+//IsSetIntersectionDisjoint - If A ∩ B = ∅, then A and B are said to be disjoint.
+func IsSetIntersectionDisjoint() {
+
+}
 
 // // Add inserts an element into the set.
 // func Add(e int) {

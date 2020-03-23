@@ -1,0 +1,33 @@
+package integeration
+
+// A magma is a set M matched with an operation, •, that sends any two elements a, b ∈ M to another element, a • b. The symbol, •, is a general placeholder for a properly defined operation. To qualify as a magma, the set and operation (M, •) must satisfy the following requirement (known as the magma or closure axiom):
+
+// For all a, b in M, the result of the operation a • b is also in M.
+// And in mathematical notation:
+
+// {\displaystyle a,b\in M\implies a\cdot b\in M}{\displaystyle a,b\in M\implies a\cdot b\in M}.
+// If • is instead a partial operation, then S is called a partial magma[5] or more often a partial groupoid.
+
+
+
+
+Types of magma
+Magmas are not often studied as such; instead there are several different kinds of magma, depending on what axioms the operation is required to satisfy. Commonly studied types of magma include:
+
+Quasigroup
+A magma where division is always possible
+Loop
+A quasigroup with an identity element
+Semigroup
+A magma where the operation is associative
+Inverse semigroup
+A semigroup with inverse.
+Semilattice
+A semigroup where the operation is commutative and idempotent
+Monoid
+A semigroup with an identity element
+Group
+A monoid with inverse elements, or equivalently, an associative loop, or a non-empty associative quasigroup
+Abelian group
+A group where the operation is commutative
+Note that each of divisibility and invertibility imply the cancellation property.
