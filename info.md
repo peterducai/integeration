@@ -33,3 +33,6 @@ More concisely, any object that can be "charted" is a manifold.
 
 
 
+In set theory, #S is the cardinality of the set S. That is, for a set {\displaystyle S=\{s_{1},s_{2},s_{3},\dots ,s_{n}\}}S=\{s_{1},s_{2},s_{3},\dots ,s_{n}\}, in which all {\displaystyle s_{i}}s_{i} are mutually distinct, {\displaystyle \#S=n.}\#S=n.
+In topology, A"#"B is the connected sum of manifolds A and B, or of knots A and B in knot theory.
+In number theory, n# is the primorial of n.
