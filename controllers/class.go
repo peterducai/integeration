@@ -1,4 +1,4 @@
-package integeration
+package controllers
 
 // The class Grp of groups consists of all objects having a "group structure".
 // One can proceed to prove theorems about groups by making logical deductions from the set of axioms defining groups.

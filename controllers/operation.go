@@ -1,4 +1,4 @@
-package integeration
+package controllers
 
 // Operation is a function which takes zero or more input values (called operands) to a well-defined output value
 // There are two common types of operations: unary and binary.

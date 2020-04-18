@@ -1,4 +1,4 @@
-package integeration
+package controllers
 
 import (
 	"bufio"

@@ -1,4 +1,4 @@
-package integeration
+package models
 
 import (
 	"math"
