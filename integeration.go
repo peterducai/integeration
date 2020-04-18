@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"github.com/peterducai/integeration/cmd/integeration"
+	"github.com/peterducai/integeration/controllers"
 )
 
 func main() {
